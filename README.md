@@ -28,6 +28,9 @@ Copy the path of config.properties file located in src/test/resources/config. Th
 
 	FileInputStream ip = new FileInputStream("Update this path according to config.properties path");
 
+**Note:** Please make sure that cucumber.properties file contains only browser = chrome value 
+Because when i downloaded this project this file is automatically changed the data inside.
+
 3. **Run Tests on Eclipse:**
 
 Right-click on the TestRunner class.
